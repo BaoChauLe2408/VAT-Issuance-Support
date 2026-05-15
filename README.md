@@ -10,7 +10,7 @@ This project automates the process of merging **Daily Sales Transaction Data** w
 ### 🛠️ Key Data Logic
 The script processes and reconciles data through several stages:
 
-*   **Data Ingestion:** mports daily sales reports and system master lists via authenticated Google Sheets CSV export links for centralized processing.
+*   **Data Ingestion:** Imports daily sales reports and system master lists via authenticated Google Sheets CSV export links for centralized processing.
 *   **Intelligent Mapping:** Merges internal item names with official VAT-compliant descriptions using string normalization (lowercasing, stripping whitespace) to ensure a perfect join.
 *   **Tax Calculation & Categorization:** Dynamically assigns VAT rates (8% or 10%) and maps items to their respective accounting groups.
 *   **Output Optimization:** Cleans, deduplicates, and reorders columns to match the specific schema required by tax declaration software.
